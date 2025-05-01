@@ -27,8 +27,10 @@ python -m run
 ### Making Requests
 
 ```
-curl -i "http://127.0.0.1:5000/health-check"
+curl -i "http://127.0.0.1:5000/"
 ```
 
 
-## What'd I'd like to improve on...
+##run tests
+python -m unittest discover tests
+
